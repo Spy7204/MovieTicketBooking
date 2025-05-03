@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movieticket.createcontroller">
+   <children>
+      <AnchorPane layoutX="197.0" layoutY="104.0" prefHeight="578.0" prefWidth="735.0" styleClass="bg-form" stylesheets="@design.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="tf_username" layoutX="244.0" layoutY="314.0" prefHeight="26.0" prefWidth="246.0" promptText="Username" styleClass="textfield" stylesheets="@design.css" />
+            <PasswordField fx:id="tf_password" layoutX="244.0" layoutY="370.0" prefHeight="26.0" prefWidth="246.0" promptText="Password" styleClass="textfield" stylesheets="@design.css" />
+            <Button fx:id="add" layoutX="310.0" layoutY="447.0" mnemonicParsing="false" onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="114.0" styleClass="login-btn" stylesheets="@design.css" text="Create">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="184.0" layoutY="196.0" prefHeight="65.0" prefWidth="368.0" text="Create a Account" textFill="#df4b4b">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="279.0" layoutY="409.0" text="1 special character needed(!@#$%&quot;&amp;&quot;)." textFill="#df4b4b">
+               <font>
+                  <Font name="Microsoft Sans Serif" size="10.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextFlow prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
